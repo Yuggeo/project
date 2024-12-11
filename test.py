@@ -30,8 +30,9 @@ class TestMortgageCalculator(unittest.TestCase):
         principal = 50000
         annual_rate = 4
         years = 10
-        expected_payment = 506.69  # Это примерное значение, рассчитанное вручную или с помощью другого калькулятора
+        expected_payment = 506.23  # Исправленное значение
         self.assertAlmostEqual(calculate_mortgage(principal, annual_rate, years), expected_payment, places=2)
 
 if __name__ == '__main__':
     unittest.main()
+
