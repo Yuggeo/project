@@ -16,6 +16,9 @@ def calculate_mortgage():
     result_label.config(text=f"Ежемесячный платеж: {monthly_payment:.2f}")
 
 # Создаем основное окно
+# Создаем основное окно2222
+# Создаем основное окно3333
+# Создаем основное окно1111
 root = tk.Tk()
 root.title("Калькулятор ипотеки")
 
