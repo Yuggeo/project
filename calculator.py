@@ -28,10 +28,10 @@ principal_entry = tk.Entry(root)
 principal_entry.grid(row=0, column=1, padx=10, pady=10)
 
 tk.Label(root, text="Годовая процентная ставка (%):").grid(row=1, column=0, padx=10, pady=10)
-rate_entry = tk.Entry(root)
+###rate_entry = tk.Entry(root)
 rate_entry.grid(row=1, column=1, padx=10, pady=10)
 
-tk.Label(root, text="Срок кредита (лет):").grid(row=2, column=0, padx=10, pady=10)
+##tk.Label(root, text="Срок кредита (лет):").grid(row=2, column=0, padx=10, pady=10)
 years_entry = tk.Entry(root)
 years_entry.grid(row=2, column=1, padx=10, pady=10)
 
@@ -39,7 +39,7 @@ calculate_button = tk.Button(root, text="Рассчитать", command=calculat
 calculate_button.grid(row=3, column=0, columnspan=2, pady=10)
 
 result_label = tk.Label(root, text="Ежемесячный платеж: ")
-result_label.grid(row=4, column=0, columnspan=2, pady=10)
+##result_label.grid(row=4, column=0, columnspan=2, pady=10)
 
 # Запускаем главный цикл
 root.mainloop()
