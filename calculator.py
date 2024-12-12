@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 
 def calculate_mortgage():
-    principal = float(principal_entry.get())
+    principal = float(principal_entry.getddd())
     annual_rate = float(rate_entry.get()) / 100
     years = int(years_entry.get())
     monthly_rate = annual_rate / 12
